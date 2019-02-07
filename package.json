@@ -11,7 +11,6 @@
     "gatsby": "^2.0.116",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-feed": "^2.0.13",
-    "gatsby-plugin-google-analytics": "^2.0.13",
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-offline": "^2.0.22",
     "gatsby-plugin-react-helmet": "^3.0.6",
@@ -33,7 +32,7 @@
     "typeface-merriweather": "0.0.54",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.18",
-    "typography-theme-wordpress-2016": "^0.16.18"
+    "typography-theme-ocean-beach": "^0.16.18"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [

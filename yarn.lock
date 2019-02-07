@@ -4748,13 +4748,6 @@ gatsby-plugin-feed@^2.0.13:
     pify "^3.0.0"
     rss "^1.2.2"
 
-gatsby-plugin-google-analytics@^2.0.13:
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.13.tgz#31ecf6be05815ba2047ec8cd5129f0bea9d7fd75"
-  integrity sha512-cOfQ+f3FRl0yPm5J9atj23Xp7uGILMpYuPXHpm9nh74Tgg9R8rJyaLZaHpEiA2jdnqGvfLIBsqm6Sh0x/wepGQ==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-
 gatsby-plugin-manifest@^2.0.17:
   version "2.0.17"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.17.tgz#1e2c3329b1a58bdf77186866dd9e94da54ac6e68"
@@ -11212,10 +11205,10 @@ typography-normalize@^0.16.18:
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.16.18.tgz#19e8db32c6881d3745b7d67dc63ee6f6cfb681d1"
   integrity sha512-HZCOoyg4bbwuy0W6kFOKS8duMhUUO1Oxl8/NgRKDG7kJYGjfmqj6LBjQ4dYGrcuPabYHhP0xmAaYNasEUooYBw==
 
-typography-theme-wordpress-2016@^0.16.18:
+typography-theme-ocean-beach@^0.16.18:
   version "0.16.18"
-  resolved "https://registry.yarnpkg.com/typography-theme-wordpress-2016/-/typography-theme-wordpress-2016-0.16.18.tgz#bdca238ea43cabb9b590c299963c3fb8abc671af"
-  integrity sha512-ULTVAYGPtrL5C+y0YQr7eJJQ9F1dibnUSDuFKOEi8WFWmPcYGoMavtDGLEd1d+8TKMtnyi5sB9QvI7d0WAFxqA==
+  resolved "https://registry.yarnpkg.com/typography-theme-ocean-beach/-/typography-theme-ocean-beach-0.16.18.tgz#e29752433b79c5350d66bfc5d284481734816d45"
+  integrity sha512-VR7HXdfvLjEDNM4Cl/QmCHf2x6BRLxxdA2jWdnUFD9U4uc9EtxKZHc8Ah0wer2MRBgJOq+9soGsuRE6kS5BHcw==
   dependencies:
     gray-percentage "^2.0.0"
     typography-breakpoint-constants "^0.16.18"
