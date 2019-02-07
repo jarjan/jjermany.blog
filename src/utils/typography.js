@@ -1,23 +1,28 @@
-import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import Typography from "typography";
+import OceanBeach from "typography-theme-ocean-beach";
 
-Wordpress2016.overrideThemeStyles = () => {
+OceanBeach.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+      boxShadow: "none"
     },
-  }
-}
+    a: {
+      color: "#ff6441",
+      "background-image":
+        "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #ff6441 1px, #ff6441 2px, rgba(0, 0, 0, 0) 2px);"
+    }
+  };
+};
 
-delete Wordpress2016.googleFonts
+delete OceanBeach.googleFonts;
 
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(OceanBeach);
 
 // Hot reload typography in development.
-if (process.env.NODE_ENV !== `production`) {
-  typography.injectStyles()
+if (process.env.NODE_ENV !== "production") {
+  typography.injectStyles();
 }
 
-export default typography
-export const rhythm = typography.rhythm
-export const scale = typography.scale
+export default typography;
+export const rhythm = typography.rhythm;
+export const scale = typography.scale;
