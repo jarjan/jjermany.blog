@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Жжёрмани",
+    title: "🇩🇪 Жжёрмани",
     author: "Жаржан",
     description: "заметки программиста про Берлин и Германию ",
     siteUrl: "https://jjermany.netlify.com/",
@@ -51,8 +51,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Жжёрмани - Блог о жизни в Берлине, Германия",
-        short_name: "Жжёрмани",
+        name: "🇩🇪 Жжёрмани - Блог о жизни в Берлине, Германия",
+        short_name: "🇩🇪 Жжёрмани",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#ff6441",
