@@ -3,7 +3,7 @@ module.exports = {
     title: "🇩🇪 Жжёрмани",
     author: "Жаржан",
     description: "заметки программиста про Берлин и Германию ",
-    siteUrl: "https://jjermany.blog/",
+    siteUrl: "https://jjermany.blog",
     social: {
       twitter: "jarjan"
     }
