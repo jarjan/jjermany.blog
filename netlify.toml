@@ -1,3 +1,14 @@
+[[redirects]]
+  from = "http://jjermany.netlify.com/*"
+  to = "http://jjermany.blog/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/post/"
+  to = "/"
+  status = 301
+
 [build]
 publish = "public"
 command = "hugo --gc --minify"
@@ -28,14 +39,3 @@ HUGO_VERSION = "0.54.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-
-[[redirects]]
-  from = "http://jjermany.netlify.com/*"
-  to = "http://jjermany.blog/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/posts/"
-  to = "/"
-  status = 301
