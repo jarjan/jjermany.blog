@@ -2,6 +2,6 @@
 
 ## 🇩🇪 Жжёрмани
 
-> Russian blog of @jarjan about life in Berlin, Germany.
+> Blog of @jarjan about life in Berlin, Germany. (In russian)
 
 [jjermany.blog](https://jjermany.blog) is created using [Hugo](https://gohugo.io/) and lives on [Netlify](http://netlify.com).
