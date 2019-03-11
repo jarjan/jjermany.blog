@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html
+  class=""
+  lang="{{ .Site.LanguageCode }}"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  <head>
+    <meta charset="utf-8" />
+
+    {{ partial "meta.html" . }}
+
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link
+      href="{{ .RSSLink }}"
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ .Site.Title }}"
+    />
+
+    {{ partial "head_includes.html" . }}
+  </head>
+  <body
+    lang="{{ .Site.LanguageCode }}"
+    class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
+  >
+    <section id="main">
+      <div>
+        <h1 id="title" class="f3">
+          {{ .Site.Params.TitleEmoji | emojify }}
+        </h1>
+        <p>{{ .Site.Params.Subtitle }}</p>
+        <ul class="list mt5 pl0">
+          <!-- prettier-ignore -->
+          {{ range .Data.Pages.ByDate.Reverse }}
+          <li class="list pl0 lh-copy">
+            <a
+              class="f3 b bb bw1 dib b--gold black no-underline"
+              href="{{ .Permalink}}"
+              >{{ .Title }}</a
+            >
+            <span class="f6 gray">{{ .Date.Format "2006-01-02" }}</span>
+          </li>
+          <!-- prettier-ignore -->
+          {{ end }}
+        </ul>
+      </div>
+    </section>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>
