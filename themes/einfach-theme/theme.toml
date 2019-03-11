@@ -14,4 +14,6 @@ min_version = "0.41"
   name = "Zharzhan Kulmyrza"
   homepage = "https://jarjan.xyz"
 
-
+[original]
+    name = "Basic"
+    repo = "https://github.com/siegerts/hugo-theme-basic"

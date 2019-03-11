@@ -31,11 +31,15 @@
         </h1>
         <p>{{ .Site.Params.Subtitle }}</p>
         <ul class="list pl0">
-          <!-- pages -->
           <!-- prettier-ignore -->
-          {{ range .Site.Params.menu }}
-          <li class="b mv3">
-            <a class="f3 b pa1 black" href="{{ .url }}">{{ .name }}</a>
+          {{ range .Data.Pages.ByDate.Reverse }}
+          <li class="list pl0 lh-copy">
+            <a
+              class="f3 b dib black no-underline"
+              href="{{ .Permalink}}"
+              >{{ .Title }}</a
+            >
+            <span class="f6 gray">{{ .Date.Format "2006-01-02" }}</span>
           </li>
           <!-- prettier-ignore -->
           {{ end }}
