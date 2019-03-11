@@ -1,0 +1,13 @@
+baseURL = "https://jjermany.blog/"
+enableRobotsTXT = "true"
+languageCode = "ru-ru"
+title = "🇩🇪 Жжёрмани"
+theme = "hugo-theme-basic"
+
+[params]
+  subtitle = "заметки программиста про Берлин и Германию"
+  email = "zharzhan@gmail.com"
+  sectionsOnIndex = ["post"]
+
+[permalinks]
+  posts = "/:slug/"

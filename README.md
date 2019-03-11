@@ -4,7 +4,7 @@
 
 > Russian blog of @jarjan about life in Berlin, Germany.
 
-[jjermany.blog](https://jjermany.blog) is created using [Gatsby](https://gatsby.org) and lives on [Netlify](http://netlify.com).
+[jjermany.blog](https://jjermany.blog) is created using [Hugo](https://gohugo.io/) and lives on [Netlify](http://netlify.com).
 
 ### 💻 Development
 
