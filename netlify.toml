@@ -1,0 +1,14 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[[redirects]]
+  from = "http://jjermany.netlify.com/*"
+  to = "http://jjermany.blog/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/"
+  to = "/"
+  status = 301
