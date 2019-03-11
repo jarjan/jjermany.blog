@@ -5,7 +5,3 @@
 > Russian blog of @jarjan about life in Berlin, Germany.
 
 [jjermany.blog](https://jjermany.blog) is created using [Hugo](https://gohugo.io/) and lives on [Netlify](http://netlify.com).
-
-### 💻 Development
-
-Install dependencies using `yarn` and run `yarn start` to develop.
