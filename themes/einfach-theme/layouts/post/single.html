@@ -29,7 +29,7 @@
         <section class="mt4">
           {{ $readMore := ":wave:" }}
           {{ $series := .Params.series | urlize}}
-          <h3>{{ $readMore | emojify }} Related posts in the <a href="/series/{{ $series }}" class="b bb bw1 pb1 no-underline black">{{ .Params.Series }}</a> series...</h3>
+          <h3>{{ $readMore | emojify }} Похожие записи в <a href="/series/{{ $series }}" class="b bb bw1 pb1 no-underline black">{{ .Params.Series }}</a>...</h3>
       
           {{ $posts := index .Site.Taxonomies.series $series }}
          
