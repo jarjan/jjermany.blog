@@ -2,7 +2,7 @@ baseURL = "https://jjermany.blog/"
 enableRobotsTXT = "true"
 languageCode = "ru-ru"
 title = "🇩🇪 Жжёрмани"
-copyright = "© 2019 <a href='https://jarjan.xyz'>@jarjan</a>"
+copyright = "© 2019. Сделал сайт и пишет посты <a href='https://jarjan.xyz'>@jarjan</a>"
 theme = "einfach-theme"
 enableEmoji = true
 
