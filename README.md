@@ -4,4 +4,4 @@
 
 > Blog of @jarjan about life in Berlin, Germany. (In russian)
 
-[jjermany.blog](https://jjermany.blog) is created using [Hugo](https://gohugo.io/) and lives on [Netlify](http://netlify.com).
+[jjermany.blog](https://jjermany.blog) is created using [11ty](https://11ty.dev/) and lives on [Netlify](http://netlify.com).
