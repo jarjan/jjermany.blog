@@ -13,12 +13,6 @@ module.exports = function(eleventyConfig) {
     return util.inspect(obj);
   });
 
-  // Date helpers
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "utc"
-    }).toFormat("LLLL d, y");
-  });
   eleventyConfig.addFilter("htmlDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {
       zone: "utc"
