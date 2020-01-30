@@ -1,0 +1,13 @@
+---
+title: Жжёрмани
+layout: default
+---
+
+<section>
+  {% include 'about.njk' %}
+  <ul class="list-none">
+    {%- for item in collections.post | reverse -%}
+      {% include 'components/post-teaser.njk' %}
+    {%- endfor -%}
+  </ul>
+</section>

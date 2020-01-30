@@ -1,1 +1,0 @@
-# einfach-theme
