@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "@fullhuman/postcss-purgecss": "^2.0.5",
+    "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.4",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
