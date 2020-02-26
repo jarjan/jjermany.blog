@@ -36,18 +36,6 @@ a:focus {
   @apply border-b-2;
   @apply bg-orange-400;
 }
-a.naked-link:link,
-a.naked-link:visited {
-  @apply border-0;
-}
-
-code {
-  @apply bg-gray-200;
-  @apply text-sm;
-  @apply p-1;
-  @apply rounded;
-}
-
 /*
   Navigation links
 */
@@ -64,17 +52,6 @@ code {
   @apply bg-white;
   @apply text-orange-400;
   @apply border-b-0;
-}
-
-.filter-bw-800 {
-  filter: grayscale(0.8);
-}
-
-.mb--2 {
-  margin-bottom: -0.5rem;
-}
-.mb--4 {
-  margin-bottom: -1rem;
 }
 
 /* purgecss start ignore */

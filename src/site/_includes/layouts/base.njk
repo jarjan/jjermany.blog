@@ -12,13 +12,5 @@
     <div class="mx-4 md:mx-0 leading-relaxed">
       {{ content | safe }}
     </div>
-    {% set js %}
-    {% include "js/core.js" %}
-    {% include "js/hello.js" %}
-    {% endset %}
-    {# {% include "footer.njk" %} #}
-    <script>
-      {{ js | jsmin | safe }}
-    </script>
   </body>
 </html>
