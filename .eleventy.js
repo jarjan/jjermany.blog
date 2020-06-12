@@ -1,16 +1,18 @@
 const { DateTime, Settings } = require("luxon");
 const util = require("util");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 Settings.defaultLocale = "ru";
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(pluginRss);
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
-  eleventyConfig.addFilter("htmlDate", dateObj => {
+  eleventyConfig.addFilter("htmlDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
-      zone: "utc"
+      zone: "utc",
     }).toFormat("y-MM-dd");
   });
 
@@ -33,11 +35,11 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src/site",
       includes: "_includes",
-      output: "dist"
+      output: "dist",
     },
     passthroughFileCopy: true,
     templateFormats: ["njk", "md"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk"
+    markdownTemplateEngine: "njk",
   };
 };
