@@ -43,8 +43,9 @@ a:focus {
   @apply inline-block;
   @apply text-white;
   @apply font-semibold;
-  @apply px-4;
-  @apply py-2;
+  @apply text-xs;
+  @apply px-2;
+  @apply py-1;
   @apply border-b-0;
   @apply rounded;
 }
@@ -52,6 +53,14 @@ a:focus {
   @apply bg-white;
   @apply text-orange-400;
   @apply border-b-0;
+}
+
+@screen sm {
+  .nav-tab {
+    @apply px-4;
+    @apply py-2;
+    @apply text-base;
+  }
 }
 
 /* purgecss start ignore */
