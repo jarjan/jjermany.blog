@@ -15,7 +15,8 @@
     "watch": "npm-run-all --parallel watch:css watch:html",
     "watch:css": "postcss src/site/_includes/css/tailwind.css -o src/site/css/styles.css --watch",
     "watch:html": "eleventy --serve --port=8181",
-    "start": "npm run watch"
+    "start": "npm run watch",
+    "debug": "DEBUG=Eleventy* eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "0.11.0",
