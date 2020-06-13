@@ -18,7 +18,7 @@
     "start": "npm run watch",
     "debug": "DEBUG=Eleventy* eleventy"
   },
-  "devDependencies": {
+  "dependencies": {
     "@11ty/eleventy": "0.11.0",
     "@11ty/eleventy-plugin-rss": "1.0.7",
     "@fullhuman/postcss-purgecss": "2.2.0",
