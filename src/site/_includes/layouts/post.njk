@@ -5,7 +5,7 @@ templateEngineOverride: njk, md
 ---
 <section class="pt-4">
   <time value="{{ item.date }}" class="text-gray-600">{{ date | htmlDate }}</time>
-  <h1 class="heading">{{ title }}</h1>
+  <h1 class="heading leading-tight">{{ title }}</h1>
   <div class="mb-4 text-lg font-medium">
     {{ content | section | safe }}
   </div>

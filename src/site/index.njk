@@ -1,13 +1,14 @@
 ---
 title: Жжёрмани
+description: Заметки программиста про Берлин и Германию.
 layout: default
 ---
 
 <section>
-  {% include 'about.njk' %}
   <ul class="list-none">
     {%- for item in collections.post | reverse -%}
       {% include 'components/post-teaser.njk' %}
     {%- endfor -%}
   </ul>
+  {% include 'about.njk' %}
 </section>

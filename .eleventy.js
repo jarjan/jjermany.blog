@@ -1,5 +1,4 @@
 const { DateTime, Settings } = require("luxon");
-const util = require("util");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 Settings.defaultLocale = "ru";

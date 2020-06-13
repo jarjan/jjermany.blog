@@ -3,13 +3,14 @@
     <a href="/">🇩🇪 Жжёрмани</a>
   </h1>
   <nav>
-    {% set linkList = [
+    {%
+    set linkList = [
       {
         "url": pkg.repository.url,
         "text": "GitHub"
       }
     ]
- %}
+    %}
     {% include "navigation-links.njk" %}
   </nav>
 </header>
