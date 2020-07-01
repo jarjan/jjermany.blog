@@ -22,7 +22,7 @@
     "@11ty/eleventy": "0.11.0",
     "@11ty/eleventy-plugin-rss": "1.0.7",
     "@fullhuman/postcss-purgecss": "2.3.0",
-    "autoprefixer": "9.8.2",
+    "autoprefixer": "9.8.4",
     "cssnano": "4.1.10",
     "html-minifier": "4.0.0",
     "luxon": "1.24.1",
