@@ -29,12 +29,12 @@ h1.heading {
 */
 a {
   @apply border-b-2;
-  @apply border-orange-400;
+  @apply border-yellow-500;
 }
 a:hover,
 a:focus {
   @apply border-b-2;
-  @apply bg-orange-400;
+  @apply bg-yellow-500;
 }
 /*
   Navigation links
@@ -51,7 +51,7 @@ a:focus {
 }
 .nav-tab:hover {
   @apply bg-white;
-  @apply text-orange-400;
+  @apply text-yellow-500;
   @apply border-b-0;
 }
 
