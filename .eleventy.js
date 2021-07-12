@@ -34,7 +34,6 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src/site",
       includes: "_includes",
-      output: "dist",
     },
     passthroughFileCopy: true,
     templateFormats: ["njk", "md"],
