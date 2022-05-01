@@ -2097,7 +2097,12 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@1.27.0, luxon@^1.26.0:
+luxon@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.3.2.tgz#5f2f3002b8c39b60a7b7ad24b2a85d90dc5db49c"
+  integrity sha512-MlAQQVMFhGk4WUA6gpfsy0QycnKP0+NlCBJRVRNPxxSIbjrCbQ65nrpJD3FVyJNZLuJ0uoqL57ye6BmDYgHaSw==
+
+luxon@^1.26.0:
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.27.0.tgz#ae10c69113d85dab8f15f5e8390d0cbeddf4f00f"
   integrity sha512-VKsFsPggTA0DvnxtJdiExAucKdAnwbCCNlMM5ENvHlxubqWd0xhZcdb4XgZ7QFNhaRhilXCFxHuoObP5BNA4PA==
